@@ -1,0 +1,107 @@
+---
+title: "Rob Hyndman: since 2021"
+author: Rob Hyndman
+titlefontsize: 22pt
+classoption: aspectratio=169
+toc: false
+output:
+  binb::monash:
+    fig_width: 7
+    fig_height: 3.5
+    colortheme: monashblue
+header-includes:
+  - \usepackage{multicol}
+  - \setlength{\leftmargini}{13pt}
+  - \setlength{\labelsep}{4pt}
+  - \setlength{\columnsep}{-.01cm}
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(
+  echo = FALSE,
+  message=FALSE,
+  warning=FALSE,
+  cache=TRUE,
+  dev.args=list(bg=grey(0.9), pointsize=11)
+)
+```
+
+# Rob Hyndman: since Jan 2021
+
+\begin{textblock}{4.3}(.3,1.3)
+\fontsize{10}{10.2}\sf
+\begin{block}{Data sets analysed}
+\begin{itemize}\itemsep=0cm
+\item Australian mortality, fertility and population
+\item US mortality rates
+\item Australian tourist numbers
+\item Electricity demand data from smart meters
+\item Water quality data from in situ sensors
+\item Swiss exports by sector
+\end{itemize}
+\end{block}
+\end{textblock}
+
+\begin{textblock}{4.3}(5,1.3)
+\fontsize{10}{10.3}\sf
+\begin{alertblock}{Research themes}
+\begin{itemize}\itemsep=0cm
+\item Anomaly detection
+\item High-dimensional time series data
+\item Forecast reconciliation
+\item Exploratory time series analysis
+\item Seasonality
+\item Demographic forecasting
+\item Electricity demand analysis
+\end{itemize}
+\end{alertblock}
+\end{textblock}
+
+\begin{textblock}{6}(9.7,1.3)
+\fontsize{10}{10.2}\sf
+\begin{block}{Journal papers published}
+\begin{itemize}\itemsep=0cm
+  \item \textit{Applied Soft Computing}
+  \item \textit{Australian \& New Zealand J of Statistics}
+  \item \textit{European J Operational Research}
+  \item \textit{INFORMS J Data Science}
+  \item \textit{Insurance, Mathematics \& Economics}
+  \item \textit{International J Forecasting} (x3)
+  \item \textit{International J Environmental Research \& Public Health}
+  \item \textit{J American Statistical Association}
+  \item \textit{J Computational \& Graphical Statistics} (x5)
+  \item \textit{J Forecasting}
+  \item \textit{J Time Series Analysis}
+  \item \textit{J Travel Research}
+  \item \textit{Machine Learning}
+  \item \textit{NeurIPS 2021 Datasets \& Benchmarks}
+\end{itemize}
+\end{block}
+\end{textblock}
+
+\begin{textblock}{9}(.3,5.9)
+\fontsize{10}{10.1}\sf
+\begin{block}{R packages updated}\vspace*{-0.3cm}
+\begin{multicols}{4}
+\begin{itemize}\itemsep=0cm
+\item cricketdata
+\item demography
+\item forecast
+\item fpp3
+\item gratis
+\item hdrcde
+\item hts
+\item lookout
+\item monash
+\item pkgmeta
+\item rcademy
+\item Rsfar
+\item rticles
+\item stR
+\item tsfeatures
+\item tsibbledata
+\item vitae
+\end{itemize}
+\end{multicols}
+\end{block}
+\end{textblock}
